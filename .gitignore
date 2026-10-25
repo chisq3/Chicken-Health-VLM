@@ -1,0 +1,48 @@
+# Python environments and generated files
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+
+# Local credentials and secrets
+.env
+.env.*
+!.env.example
+credentials.json
+service-account*.json
+secrets/
+
+# Model weights, adapters, and training checkpoints
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+adapter_model.bin
+pytorch_model*.bin
+checkpoints*/
+checkpoint-*/
+final_adapter/
+final_lora*/
+
+# Generated vector stores and model caches
+chroma_db_store/
+.cache/
+mustela_cache/
+mustela_embedding_cache/
+
+# Logs and operating-system files
+*.log
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Keep source code, KB JSON, VQA JSONL, sample images,
+# figures, and saved evaluation reports in version control.
